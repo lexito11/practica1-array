@@ -55,3 +55,9 @@ console.log("La longitud del arreglo es " + longitud);
 let array12 = [1,2,3,4,5,];
 array12.push(6);
 console.log(array12);
+
+// Eliminar el último elemento del array usando
+let array13 = [1,2,3,4,5,6];
+let element = array13.pop();
+console.log(element);
+console.log(array13);
