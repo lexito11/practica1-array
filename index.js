@@ -32,3 +32,16 @@ console.log(arrayCombin);
 let array10ConDuplicados = [1, 2, 3, 3, 4, 5, 5];
 let array10SinDuplicaados = [...new Set(array10ConDuplicados)];
 console.log(array10SinDuplicaados);
+
+// array con una función que genere valores dinámicamente
+function generarArray(longitud) {
+    let array = [];
+    for (let i = 0; i < longitud; i++) {
+        // En este ejemplo, generamos valores aleatorios entre 0 y 100
+        array.push(Math.floor(Math.random() * 101)); // Genera un número aleatorio entre 0 y 100
+    }
+    return array;
+}
+// Ejemplo de uso: crear un array con 10 valores generados dinámicamente
+let miArray = generarArray(10);
+console.log(miArray);
