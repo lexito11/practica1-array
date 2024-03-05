@@ -61,3 +61,8 @@ let array13 = [1,2,3,4,5,6];
 let element = array13.pop();
 console.log(element);
 console.log(array13);
+
+// Agregar elementos al principio del array usando
+let array14 = [2, 3, 4]
+array14.unshift(1);
+console.log(array14);
