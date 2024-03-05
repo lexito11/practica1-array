@@ -72,3 +72,8 @@ let array15 = [1, 2, 3, 4, 5, 6];
 let elementUno = array15.shift();
 console.log(elementUno);
 console.log(array15);
+
+// Obtener una porción del array usando
+let array16 = [1, 2, 3, 4, 5, 6, 7];
+let posic = array16.slice(3, 7);
+console.log(posic);
