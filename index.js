@@ -82,3 +82,8 @@ console.log(posic);
 let array17 = ["h", "o", "l", "a",];
 let arrayAString = array17.join("");
 console.log(arrayAString);
+
+//Obtener una subsección del array desde un índice negativo
+let array18 = [1, 2, 3, 4, 5, 6, 7, 8];
+let cantArray = array18.slice(-4);
+console.log(cantArray);
