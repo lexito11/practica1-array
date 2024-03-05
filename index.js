@@ -27,3 +27,8 @@ let array8 = [1, 2, 3, 4];
 let array9 = [1, 2, 3, 4, 5];
 let arrayCombin = [...array8, ...array9];
 console.log(arrayCombin);
+
+//  Crear un array con valores únicos utilizando el método Set() y el operador spread
+let array10ConDuplicados = [1, 2, 3, 3, 4, 5, 5];
+let array10SinDuplicaados = [...new Set(array10ConDuplicados)];
+console.log(array10SinDuplicaados);
