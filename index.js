@@ -15,3 +15,8 @@ let array5 = Array.from({length: 6}, (_, index) => index + 1);
 
 // array mediante la repetición de un valor
 let array6 = new Array(5).fill(11);
+
+//  Crear un array a partir de una cadena de texto
+let array7 = "hola, cual es tu nombre";
+let arrayCadena = array7.split(" ");
+console.log(arrayCadena);
