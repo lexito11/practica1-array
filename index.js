@@ -77,3 +77,8 @@ console.log(array15);
 let array16 = [1, 2, 3, 4, 5, 6, 7];
 let posic = array16.slice(3, 7);
 console.log(posic);
+
+//  Convertir un array en un string usando
+let array17 = ["h", "o", "l", "a",];
+let arrayAString = array17.join("");
+console.log(arrayAString);
