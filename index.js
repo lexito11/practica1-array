@@ -45,3 +45,8 @@ function generarArray(longitud) {
 // Ejemplo de uso: crear un array con 10 valores generados dinámicamente
 let miArray = generarArray(10);
 console.log(miArray);
+
+// Obtener la longitud de un array
+let arreglo11 = [1, 2, 3, 4, 5];
+let longitud = arreglo11.length;
+console.log("La longitud del arreglo es " + longitud);
