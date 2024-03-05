@@ -20,3 +20,10 @@ let array6 = new Array(5).fill(11);
 let array7 = "hola, cual es tu nombre";
 let arrayCadena = array7.split(" ");
 console.log(arrayCadena);
+
+// Crear un array combinando dos arrays existentes 
+// arrays existentes
+let array8 = [1, 2, 3, 4];
+let array9 = [1, 2, 3, 4, 5];
+let arrayCombin = [array8, array9];
+console.log(arrayCombin);
