@@ -25,5 +25,5 @@ console.log(arrayCadena);
 // arrays existentes
 let array8 = [1, 2, 3, 4];
 let array9 = [1, 2, 3, 4, 5];
-let arrayCombin = [array8, array9];
+let arrayCombin = [...array8, ...array9];
 console.log(arrayCombin);
