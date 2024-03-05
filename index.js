@@ -93,3 +93,8 @@ console.log(cantArray);
  let eliminUnaPart = array19.slice(1, 3).concat(array19.slice(4));
  console.log(eliminUnaPart);
  console.log(array19);
+
+ // Agregar múltiples elementos al principio del array usando unshift() con spread operator ...
+let array20 = [4, 5, 6,];
+array20.unshift(1, 2, 3,);
+console.log(array20);
