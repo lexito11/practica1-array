@@ -87,3 +87,9 @@ console.log(arrayAString);
 let array18 = [1, 2, 3, 4, 5, 6, 7, 8];
 let cantArray = array18.slice(-4);
 console.log(cantArray);
+ 
+//Eliminar una porción del array sin modificar el original usando
+ let array19 = [1, 2, 3, 4, 5, 6,];
+ let eliminUnaPart = array19.slice(1, 3).concat(array19.slice(4));
+ console.log(eliminUnaPart);
+ console.log(array19);
