@@ -66,3 +66,9 @@ console.log(array13);
 let array14 = [2, 3, 4]
 array14.unshift(1);
 console.log(array14);
+
+// Eliminar el primer elemento del array usando
+let array15 = [1, 2, 3, 4, 5, 6];
+let elementUno = array15.shift();
+console.log(elementUno);
+console.log(array15);
