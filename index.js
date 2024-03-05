@@ -6,3 +6,6 @@ let array2 = [1, 2, 3, 4,]
 
 //arreglo con datos diferentes
 let array3 = [1, 2, "hola", 3.0, true];
+
+// Crear un array utilizando el constructor Array
+let array4 = new Array(1, 2, 3, 4, 5);
