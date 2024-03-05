@@ -50,3 +50,8 @@ console.log(miArray);
 let arreglo11 = [1, 2, 3, 4, 5];
 let longitud = arreglo11.length;
 console.log("La longitud del arreglo es " + longitud);
+
+//agregar un elemento al final del arreglo
+let array12 = [1,2,3,4,5,];
+array12.push(6);
+console.log(array12);
